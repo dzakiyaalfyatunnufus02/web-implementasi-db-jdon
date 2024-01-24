@@ -1,0 +1,10 @@
+.cerita-horor-pt1{
+    width: 800px;
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+}
+.italic{
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+}

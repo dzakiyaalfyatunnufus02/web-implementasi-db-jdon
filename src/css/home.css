@@ -8,3 +8,25 @@
     align-items: center;
     padding: 30px;
 }
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.img-card{
+    width: 400px;
+    height: 400px;
+}
+.selamat{
+    padding: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.manrope{
+    font-family: 'Manrope', sans-serif;
+}
