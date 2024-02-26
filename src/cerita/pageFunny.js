@@ -1,35 +1,36 @@
 import Footer from "../componentt/footer";
+import GalleryHoror from "../componentt/galleryHoror";
 import Navbar from "../componentt/navbar";
-import "../css/home.css"
 
-function PageHoror() {
+function PageFunny() {
   return (
     <div>
       <Navbar />
 
       <div>
+        {/* <GalleryHoror/> */}
         {" "}
         <div id="card-top" className="card" style={{ padding: "30px" }}>
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="img-card"
-              src="https://img.wattpad.com/cover/225280182-512-k790958.jpg"
+              src="https://i.pinimg.com/564x/aa/7f/d6/aa7fd67b53598033e4bd7d60fd5ae8cf.jpg"
               alt=""
             />
-            <a href="/horor-pt-1">
+            <a href="/funny-pt-1">
               <h5
                 style={{ paddingTop: "10px" }}
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                Rahasia Hutan Mistery
+                Ayam Ajaib yang Meraih Candaan Dunia
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Di dalam hutan belantara yang lebat terdapat sebuah desa kecil
-              yang dikenal sebagai Desa Mistery....
+              Di sebuah desa kecil di tepi hutan, hiduplah seorang peternak
+              bernama Budi.....
             </p>
             <a
-              href="horor-pt-1"
+              href="/funny-pt-1"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
@@ -53,25 +54,23 @@ function PageHoror() {
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="img-card"
-              src="https://img.wattpad.com/19b7094c51539e0ae13e9f50dbd4dfd4730df60f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f494f3172484245366d6c624c45773d3d2d3835383634363031362e313630316438393132343438623761303639363931363630313333382e6a7067"
+              src="https://i.pinimg.com/564x/80/9a/bd/809abdc13b29bd61daa73f6408f0d59b.jpg"
               alt=""
             />
-            <a href="/horor-pt-2">
+            <a href="/funny-pt-2">
               <h5
                 style={{ paddingTop: "10px" }}
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                Kisah Cahaya di Balik Bayang Vila Hantu
+                Kandang yang Tak Terduga
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Di tepi sebuah hutan lebat, terdapat sebuah vila tua yang dikenal
-              sebagai Vila Hantu. Konon, vila ini telah ditinggalkan selama
-              beberapa dekade karena cerita-cerita menyeramkan yang
-              mengelilinginya.....
+              Pada suatu hari di desa kecil, hiduplah seorang petani bernama
+              Budi......
             </p>
             <a
-              href="/horor-pt-2"
+              href="/funny-pt-2"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
@@ -95,24 +94,23 @@ function PageHoror() {
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="img-card"
-              src="https://i.pinimg.com/736x/79/ba/cb/79bacbc21ceda07c053939db2de28a5c.jpg"
+              src="https://i.pinimg.com/564x/1c/82/8a/1c828a3cf1449eee2a2305f494a9cd0f.jpg"
               alt=""
             />
-            <a href="/horor-pt-3">
+            <a href="/funny-pt-3">
               <h5
                 style={{ paddingTop: "10px" }}
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                Rumah Pembantaian{" "}
+                Mesin Teleportasi yang Bikin Tawa
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Di sebuah kota kecil, terdapat sebuah rumah tua yang ditinggali
-              oleh seorang pria tua bernama John. John dikenal sebagai orang
-              yang pendiam dan jarang berbicara dengan tetangganya.....
+              Di sebuah desa kecil yang jauh dari hiruk-pikuk kota, hiduplah
+              seorang pria bernama Budi......
             </p>
             <a
-              href="/horor-pt-3"
+              href="/funny-pt-3"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
@@ -138,23 +136,23 @@ function PageHoror() {
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="img-card"
-              src="https://img.wattpad.com/cover/225280182-512-k790958.jpg"
+              src="https://i.pinimg.com/564x/aa/7f/d6/aa7fd67b53598033e4bd7d60fd5ae8cf.jpg"
               alt=""
             />
-            <a href="/horor-pt-1">
+            <a href="/funny-pt-1">
               <h5
                 style={{ paddingTop: "10px" }}
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                Rahasia Hutan Mistery
+                Ayam Ajaib yang Meraih Candaan Dunia
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Di dalam hutan belantara yang lebat terdapat sebuah desa kecil
-              yang dikenal sebagai Desa Mistery....
+              Di sebuah desa kecil di tepi hutan, hiduplah seorang peternak
+              bernama Budi.....
             </p>
             <a
-              href="horor-pt-1"
+              href="funny-pt-1"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
@@ -178,25 +176,23 @@ function PageHoror() {
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="img-card"
-              src="https://img.wattpad.com/19b7094c51539e0ae13e9f50dbd4dfd4730df60f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f494f3172484245366d6c624c45773d3d2d3835383634363031362e313630316438393132343438623761303639363931363630313333382e6a7067"
+              src="https://i.pinimg.com/564x/80/9a/bd/809abdc13b29bd61daa73f6408f0d59b.jpg"
               alt=""
             />
-            <a href="/horor-pt-2">
+            <a href="/funny-pt-2">
               <h5
                 style={{ paddingTop: "10px" }}
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                Kisah Cahaya di Balik Bayang Vila Hantu
+                Kandang yang Tak Terduga
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Di tepi sebuah hutan lebat, terdapat sebuah vila tua yang dikenal
-              sebagai Vila Hantu. Konon, vila ini telah ditinggalkan selama
-              beberapa dekade karena cerita-cerita menyeramkan yang
-              mengelilinginya.....
+              Pada suatu hari di desa kecil, hiduplah seorang petani bernama
+              Budi......
             </p>
             <a
-              href="/horor-pt-2"
+              href="/funny-pt-2"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
@@ -220,24 +216,23 @@ function PageHoror() {
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="img-card"
-              src="https://i.pinimg.com/736x/79/ba/cb/79bacbc21ceda07c053939db2de28a5c.jpg"
+              src="https://i.pinimg.com/564x/1c/82/8a/1c828a3cf1449eee2a2305f494a9cd0f.jpg"
               alt=""
             />
-            <a href="/horor-pt-3">
+            <a href="/funny-pt-3">
               <h5
                 style={{ paddingTop: "10px" }}
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                Rumah Pembantaian
+                Mesin Teleportasi yang Bikin Tawa
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Di sebuah kota kecil, terdapat sebuah rumah tua yang ditinggali
-              oleh seorang pria tua bernama John. John dikenal sebagai orang
-              yang pendiam dan jarang berbicara dengan tetangganya.....
+              Di sebuah desa kecil yang jauh dari hiruk-pikuk kota, hiduplah
+              seorang pria bernama Budi......
             </p>
             <a
-              href="/horor-pt-3"
+              href="/funny-pt-3"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
@@ -259,9 +254,10 @@ function PageHoror() {
             </a>
           </div>
         </div>
+        
       </div>
       <Footer />
     </div>
   );
 }
-export default PageHoror;
+export default PageFunny;
